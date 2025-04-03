@@ -1,0 +1,317 @@
+.color1 {
+    background-color: #FFF4D4;
+}
+
+
+.letra16{
+	font-family: 'Raleway';
+	font-size:16px;
+	line-height:27px;
+	margin-bottom:25px;
+    color:#D9AC9C;
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 70px;
+  color:#D9AC9C;
+}
+
+.Letra8 {
+  font-family: 'Sofia', sans-serif;
+  font-size: 70px;
+  color: #F2A099;
+}
+
+.letra9{
+    font-family: 'Raleway';
+    font-size: 22px;
+    color:#666;
+}
+
+.letra15{
+    font-family: 'Raleway';
+    font-size: 18px;
+    color:#666;
+}
+
+#save-date{
+	font-family: 'Great Vibes', cursive; 
+	font-size:54px;
+}
+
+.letra1 {
+  font-family: 'Raleway', serif;
+  font-size: 16px;
+  color: #F2A099;
+
+}
+
+.letra3 {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: #F2A099;
+  
+}
+
+.letra4 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #F2A099;
+  
+}
+
+.letra5 {
+    font-family: 'cutive mono', serif;
+    font-size: 18px;
+    color: #F2A099;
+}
+
+.letra6 {
+    font-family: 'Pacifico', serif;
+    font-size: 13px;
+    color: #F2A099;
+  
+  }
+
+  .letra7 {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 16px;
+    color: #F2A099;
+    text-align: left;
+  
+  }
+
+  .leta10{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: #070707; 
+    text-align: center;
+    }
+
+
+.temporizador {
+  font-family: 'Staatliches', serif;
+  font-size: 40px;
+}
+
+.color2 {
+    background-color: #D9AC9C ;
+}
+
+.color3 {
+    background-color: #383329;
+}
+
+
+.container h1,
+.container p{
+    padding: 20px 0;
+}
+
+.center-abs{
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+}
+
+.chart{
+    position: relative;
+    width:25%;
+    height: 260px;
+}
+
+.h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+}
+
+
+.chart h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#D9AC9C;
+    font-size: 1.8em;
+    position: absolute;
+    bottom:10px;
+    text-align: center;
+    width: 100%;
+
+}
+.chart svg{
+    z-index: 2;
+}
+/* DIV CIRCULO DE FONDO */
+.circle{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    z-index:1;
+    border:10px #CDC7C1 solid;
+}
+.text{
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    font-size: 3.8em;
+    font-weight: 700;
+    color: #D9AC9C;
+}
+/* SVG CIRCULO */
+.outer{
+    fill:transparent;
+    stroke: #D9AC9C;
+    stroke-width: 10; /* grosor del borde */
+    stroke-dasharray: 439; /* numero de relleno del borde, se usa el mismo valor en el script.js */
+    transform: rotate(270deg) translate(-150px, 0); 
+    /* giramos el circulo para que su apertura sea en la parte superior 
+    y ajustamos su posicion
+    */
+}
+
+.boton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Cambia el color del botón cuando se coloca el cursor encima */
+.boton:hover {
+    background-color: #2980b9;
+}
+
+a.de-button, span.de-button, input[type=submit]{
+	display:inline-block; 	
+	margin:0 auto; 
+	margin-top:20px;
+	margin-right:10px; 
+	background-color:#D9AC9C !important;
+	color:#FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	border:solid 1px  ;
+	text-decoration:none
+}
+
+
+a.de-button.outline, span.de-button.outline, input[type=submit].outline{
+	border:solid 1px #D9AC9C;
+	color:#D9AC9C;
+}
+
+a.de-button:hover, input[type=submit]:hover{	
+	background-color:#D9AC9C;
+	border-color: #D9AC9C;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* 09.1.2 Outline Dark	 					 	 */
+/* ---------------------------------------------- */
+a.de-button.outline.dark-1, span.de-button.outline.dark-1, input[type=submit].outline.dark-1{
+	background-color:transparent; 
+	border:solid 1px #fff;
+	color:#fff;
+}
+
+a.de-button.outline.dark-1:hover, span.de-button.outline.dark-1:hover, input[type=submit].outline.dark-1:hover{
+	background-color:#D9AC9C;
+	border-color: #D9AC9C;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* 09.1.3 Light-1		 					 	 */
+/* ----------------------------------------------*/
+
+a.de-button.light-1, span.de-button.light-1, input[type=submit].light-1{	
+	background-color:#FFF;
+	color:#D9AC9C;
+	border:solid 1px #FFF;
+}
+
+a.de-button.outline.light-1, span.de-button.outline.light-1, input[type=submit].outline.light-1{
+	background-color:transparent; 
+	border:solid 1px #FFF;
+	color:#FFF;
+}
+
+a.de-button.light-1:hover, input[type=submit].light-1:hover{
+	background-color:#D9AC9C;
+	border-color: #D9AC9C;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* 09.1.4 Light-2			 					 */
+/* ----------------------------------------------*/
+a.de-button.light-2, span.de-button.light-2, input[type=submit].light-2{	
+	background-color:#FFF;
+	color:#666;
+	border:solid 1px #FFF;
+}
+
+a.de-button.outline.light-2, span.de-button.outline.light-2, input[type=submit].outline.light-2{
+	background-color:transparent; 
+	border:solid 1px #FFF;
+	color:#FFF;
+}
+
+a.de-button.light-2:hover, input[type=submit].light-2:hover{
+	background-color:#D9AC9C;
+	border-color: #D9AC9C;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* ----------------------------------------------*/
+/* 09.2 Size			 					 	 */
+/* ----------------------------------------------*/
+a.de-button.small, span.de-button.small, input[type=submit].small{
+	padding:8px 34px; 
+	font-size:12px; 
+}
+
+a.de-button.medium, span.de-button.medium, input[type=submit].medium{
+	padding:12px 40px; 
+	font-size:12px; 
+}
+
+a.de-button.large, span.de-button.large, input[type=submit].large{
+	padding:15px 60px; 
+	font-size:12px; 
+}
+
+/* ----------------------------------------------*/
+/* 09.3 Rounded			 					 	 */
+/* ----------------------------------------------*/
+a.de-button.small.rounded, span.de-button.small.rounded, input[type=submit].small.rounded{
+	border-radius:2px
+} 
+
+a.de-button.medium.rounded, span.de-button.medium.rounded, input[type=submit].medium.rounded{
+	border-radius:3px;
+}
+
+a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].large.rounded{
+	border-radius:4px;
+}
+
+.contenedor {
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px;
+}
+
+.letra10{
+    font-family: 'Raleway';
+    font-size: 16px;
+    color:#ffffff;
+}

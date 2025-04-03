@@ -3,14 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Próximamente - Mis XV</title>
-    <link rel="stylesheet" href="construction.css">
+    <title>Invitación Mis XV Años</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>🌸 Próximamente 🌸</h1>
-        <p>Estamos preparando algo especial para ti. ¡Vuelve pronto! ✨</p>
-        <div class="loader"></div>
+        <div class="invitacion">
+            <h1>🌸 Mis XV Años 🌸</h1>
+            <p class="mensaje">¡Estoy muy emocionada de invitarte a celebrar conmigo este día tan especial!</p>
+            
+            <!-- Cuenta regresiva -->
+            <div class="countdown">
+                <h2>Faltan:</h2>
+                <div class="timer">
+                    <span id="dias">00</span>D : 
+                    <span id="horas">00</span>H : 
+                    <span id="minutos">00</span>M : 
+                    <span id="segundos">00</span>S
+                </div>
+            </div>
+
+            <!-- Botón para ver detalles del evento -->
+            <button id="btn-detalles">Ver Detalles</button>
+
+            <!-- Sección oculta con información del evento -->
+            <div id="detalles" class="detalles-oculto">
+                <p><strong>📍 Lugar:</strong> Salón Elegance</p>
+                <p><strong>📅 Fecha:</strong> 15 de Junio de 2025</p>
+                <p><strong>🕒 Hora:</strong> 7:00 PM</p>
+            </div>
+        </div>
     </div>
+
+    <!-- Botón flotante para la música -->
+    <button id="btn-musica">🎶</button>
+    <audio id="musica" src="assets/musica.mp3"></audio>
+
+    <script src="script.js"></script>
 </body>
 </html>
